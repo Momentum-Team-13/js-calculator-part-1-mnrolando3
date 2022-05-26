@@ -13,7 +13,7 @@ button:hover {
     background-color: white;
 }
 
-.keys {
+.key {
     width: 25%;
     box-sizing: border-box;
     font-family: 'Open Sans';
