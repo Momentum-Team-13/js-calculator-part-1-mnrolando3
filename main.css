@@ -28,9 +28,10 @@ button:hover {
     border: 2px solid black;
     background-color: palevioletred;
     padding-right: 5px;
-    margin: 0px;
     font-family: 'Open Sans';
     font-size: xx-large;
+    text-overflow: initial;
+    overflow: scroll;
 }
 
 .number {
@@ -38,5 +39,9 @@ button:hover {
 }
 
 .operation {
+    background-color: pink;
+}
+
+.clear {
     background-color: pink;
 }
