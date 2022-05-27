@@ -1,8 +1,21 @@
-let keys = document.querySelectorAll(".key");
+// let keys = document.querySelectorAll(".key");
+// for (let key of keys) {
+//     key.addEventListener("click", function (event) {
+//         result.innerText += event.target.textContent;
+//      console.log(event.target.textContent);
+//      let resultBox = document.createElement("div")
+//      made new element
+//      resultBox.innerText = event.target.textContent;
+//      updated the inner text of that new element to be the contents of the clicked box
+//      result.appendChild(resultBox);
+//      append the new element to the currently empty result element
+//     });
+// };
 
-console.log(keys);
 
-console.log(keys[0].classList)
+// console.log(numbers);
+
+// console.log(numbers[0].classList)
 
 const result = document.querySelector("#result")
 
@@ -12,27 +25,28 @@ const result = document.querySelector("#result")
 //     console.log(event.target);
 // });
 
-for (let key of keys) {
-    key.addEventListener("click", function (event) {
-        // console.log(event.target.textContent);
-        // let resultBox = document.createElement("div")
-        //made new element
-        // resultBox.innerText = event.target.textContent;
-        //updated the inner text of that new element to be the contents of the clicked box
-        // result.appendChild(resultBox);
-        //append the new element to the currently empty result element
+let numbers = document.querySelectorAll(".number");
 
+for (let number of numbers) {
+    number.addEventListener("click", function (event) {
         result.innerText += event.target.textContent;
         //writing text content of target where event occurred (aka number of key that was clicked) into result (defined above)
 
-        let num1 = event.target.textContent;
-        let operation = document.querySelector(".operation")
-        let num2 = event.target.textContent; {}
+        // let num1 = event.target.textContent;
+        // let num2 = event.target.textContent;
     });
 };
 
-let clear = document.querySelector(".clear");
-clear.addEventListener("click", function (event) {
+let operations = document.querySelectorAll(".operation");
+
+for (let operation of operations) {
+    operation.addEventListener("click", function (event) {
+        result.innerText += event.target.textContent;
+    });
+};
+
+let c = document.querySelector(".clear");
+c.addEventListener("click", function (event) {
     result.innerText = "";
 });
 //instead of removing the result, replace the text with blank ("")
