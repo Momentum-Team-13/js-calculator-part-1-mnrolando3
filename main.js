@@ -7,14 +7,17 @@ const result = document.querySelector("#result")
 for (let key of keys) {
     key.addEventListener("click", function (event) {
         console.log(event.target.textContent)
+        // result.innerText += event.target.textContent;
         if (event.target.textContent === "=") {
-            math.eval
-        } else if (event.target.textContent === `${numbers}`) {
+            // console.log(result.textContent)
+            result.innerText = eval(result.textContent);
+        } else {
+            // if (event.target.textContent === `${numbers}`) {
             result.innerText += event.target.textContent
-        } else if (event.target.textContent === `${operations}`) {
-            result.innerText += event.target.textContent
-        } else if (event.target.textContent === "c") {
-            result.innerText = ""
+            // } else if (event.target.textContent === `${operations}`) {
+            //     result.innerText += event.target.textContent
+            // } else if (event.target.textContent === "c") {
+            //     result.innerText = ""
         };
         // console.log(event.target.textContent);
         // let resultBox = document.createElement("div")
@@ -48,8 +51,8 @@ for (let key of keys) {
 //     });
 // };
 
-// let clear = document.querySelector(".clear");
-// clear.addEventListener("click", function (event) {
-//     result.innerText = "";
-// });
+let c = document.querySelector(".clear");
+c.addEventListener("click", function (event) {
+    result.innerText = "";
+});
 //instead of removing the result, replace the text with blank ("")
