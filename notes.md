@@ -11,9 +11,9 @@ Different properties for numbers/operations, just in case
 
 Math works using eval
 Next steps:
-Change clear variable
-Add clear into loop
-Fix result box to round or wrap so all digits can be seen
+Change clear variable - N/A
+Add clear into loop - DONE
+Fix result box to round or wrap so all digits can be seen (fits 11 characters)
 Update eval to math.eval?
 - Add parenthesis, percent, and exponent options
 Include 0 on leading decimal?
