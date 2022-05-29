@@ -7,3 +7,14 @@ Calculator
 Different properties for numbers/operations, just in case
 
 (Sketched in notebook)
+
+
+Math works using eval
+Next steps:
+Change clear variable
+Add clear into loop
+Fix result box to round or wrap so all digits can be seen
+Update eval to math.eval?
+- Add parenthesis, percent, and exponent options
+Include 0 on leading decimal?
+Show error with invalid entry? / Disallow invalid entry?
