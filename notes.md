@@ -13,7 +13,7 @@ Math works using eval
 Next steps:
 Change clear variable - N/A
 Add clear into loop - DONE
-Fix result box to round or wrap so all digits can be seen (fits 11 characters) - WORK ON
+Fix result box to round or wrap so all digits can be seen (fits 11 characters) - IN PROGRESS
 Update eval to math.eval? - DONE
 - Add parenthesis, percent, and exponent options - DONE
 Include 0 on leading decimal?
