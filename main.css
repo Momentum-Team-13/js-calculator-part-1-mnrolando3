@@ -6,7 +6,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     height: 400px;
-    width: 300px;
+    width: 320px;
 }
 
 button:hover {
